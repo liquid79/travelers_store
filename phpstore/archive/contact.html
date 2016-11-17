@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/store.css" />
+  <title>Contact - Traveler's Store</title>
+</head>
+<body>
+<div id="content">
+  <header>
+    <nav>
+      <table id="nav_table">
+        <tr>
+          <th><a href="index.html">Home</a></th>
+          <th><a href="news.html">News</a></th>
+          <th><a href="shop.html">Shop</a></th>
+          <th>Contact</th>
+          <th><a href="admin.php">Admin</a></th>
+          <th><a href="login.html">Log In</a></th>
+        </tr>
+      </table>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <fieldset>
+        <legend>Contact Info</legend>
+        <table>
+          <tr>
+            <td><label>First Name</label><br /><input type="text" name="firstName" tabindex="1" class="nameText" /></td>
+            <td><label>Last Name</label><br /><input type="text" name="lastName" tabindex="1" class="nameText" /></td>
+          </tr>
+          <tr>
+            <td><label>Email</label><br /><input type="email" name="emailText" tabindex="1" class="nameText" /></td>
+            <td><label>Phone</label><br /><input type="tel" name="phoneText" tabindex="1" class="nameText" /></td>
+          </tr>
+          <tr>
+            <td>I prefer to be contacted by:<br /><input type="radio" name="emailRadio" /><label>Email</label><br /><input type="radio" name="phoneRadio" /><label>Phone</label></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="newsletter" /><label>Receive Newsletter</label></td>
+          </tr>
+          <tr>
+            <td>I would like information about:</td>
+          </tr>
+          <tr>
+            <td>
+              <select name="contactList" id="list">
+                <option value="Traveler's Store">Traveler's Store</option>
+                <option value="Zero">Zero</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="text" name="commentText" class="comments"/></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit" /><input type="reset" value="Reset" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </main>
+  <p></p>
+  <footer>
+    <span id="copyright">Copyright &copy; 2015DuskInc.</span><span id="date">1/9/2015</span>
+  </footer>
+</div>
+</body>
+</html>

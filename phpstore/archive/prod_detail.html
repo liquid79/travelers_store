@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/store.css" />
+  <title>Product Details - Traveler's Store</title>
+</head>
+<body>
+  <div id="content">
+    <header>
+      <nav>
+        <table>
+          <tr>
+            <th><a href="index.html">Home</a></th>
+            <th><a href="news.html">News</a></th>
+            <th><a href="shop.html">Shop</a></th>
+            <th><a href="contact.php">Contact</a></th>
+            <th><a href="admin.php">Admin</a></th>
+            <th><a href="login.html">Log In</a></th>
+          </tr>
+        </table>
+      </nav>
+    </header>
+    <main>
+      <table id="product_table">
+        <tr>
+          <td><img src="#" alt="Item" class="store_item" /></td>
+          <td>(Product)<br />Lacinia tempor mi in mi, dictum nunc tincidunt eget a eveniet, nulla placerat dolor donec ut.</td>
+        </tr>
+        <tr>
+          <td>Comments<br />(Date) - (User) - (Rating in Stars)<br />Mi tellus in eros odio nunc ipsum.</td>
+          <td>
+            <form>
+              <fieldset>
+                <label>Rating:</label><select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+                <p><label>Name:</label><input type="text" name="nameText" /></p>
+                <p><input type="text" name="commentText" class="comments" /></p>
+                <p><input type="submit" value="Submit" /></p>
+              </fieldset>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </main>
+    <footer>
+      <span id="copyright">Copyright &copy; 2015DuskInc.</span><span id="date">1/9/2015</span>
+    </footer>
+  </div>
+</body>
+</html>

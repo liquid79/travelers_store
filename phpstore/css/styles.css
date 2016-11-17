@@ -1,0 +1,38 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div#one, div#two, div#three {
+    padding: 50px 0;
+    border: 2px solid red;
+    background: #eee;
+    width:308px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.last {
+    margin-right:0;
+    float:right;
+}
+
+.image {
+    width:960px;
+    padding:100px 0;
+    background:white;
+    border:1px solid green;
+}
+
+footer {
+    clear: both;
+    height:100px;
+    width:960px;
+    background:#eee;
+}
